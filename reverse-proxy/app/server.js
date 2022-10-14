@@ -23,6 +23,10 @@ router.get('/api/health-check', function *() {
   this.body = 'Ready';
 });
 
+router.get('/api/color', function *() {
+  this.body = 'Black';
+});
+
 app.use(router.routes());
 app.use(router.allowedMethods());
 
