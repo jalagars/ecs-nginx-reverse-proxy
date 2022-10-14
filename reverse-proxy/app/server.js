@@ -24,7 +24,7 @@ router.get('/api/health-check', function *() {
 });
 
 router.get('/api/color', function *() {
-  this.body = 'Black';
+  this.body = 'Blue';
 });
 
 app.use(router.routes());
